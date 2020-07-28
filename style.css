@@ -202,78 +202,66 @@ li {
     margin-top: 60px;
 }
 .cards {
-    /* position: relative; */
-    /* margin-left: 60px; */
-    padding: 40px 30px;
-    min-height: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 30px;
+    width: 28%;
+    /* min-height: 440px; */
     font-size: 18px;
     border: 1px solid;
     border-radius: 12px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
-
-.service__list__title1{
-    margin-top: 60px;
-    margin-left: 30px;
-    font-size: 20px;
-    text-transform: uppercase;
+.service__img1 {
+    align-self: center;
 }
-.service__list__title2 {
-    /* margin-top: 60px;
-    margin-left: 30px; */
-    font-size: 20px;
-    text-transform: uppercase;
+.service__img2 {
+    align-self: center;
 }
-.service__list__title3 {
-    margin-top: 65px;
-    margin-left: 30px;
-    font-size: 20px;
-    text-transform: uppercase;
+.service__img3 {
+    align-self: center;
 }
-.service__card__text {
-        /* margin-top: 25px;
-        margin-left: 30px; */
-    max-width: 80%;
-}
-.service__cards {
-    border: 2px solid #dbdbdb
-}
-.service__cards1  {
+.service__cards1 {
     color: #ffffff;
     background-color: #3f444a;
 }
-.service__img1 {
-    padding-top: 30px;
-    padding-left: 120px;
+.service__cards2 {
+    margin-left: 60px;
+    margin-right: 60px;
 }
-.service__img2 {
-    /* padding-top: 40px;
-    padding-left: 120px; */
+.list__title {
+    font-size: 22px;
+    text-transform: uppercase;
 }
-
-.service__img3 {
-    padding-top: 45px;
-    padding-left: 120px;
+.service__list__title1 {
+    margin-top: 60px;
 }
-.service__btn3 {
-    position: absolute;
-    padding: 16px;
-    bottom: 50px;
-    right: 110px;
+.service__list__title2 {
+    margin-top: 80px; 
+}
+.service__list__title3 {
+    margin-top: 80px;
+}
+.service__btn {
+    padding: 15px 15px;
+    text-align: center;
+    width: 155px;
+    margin-top: 10px;
+    align-self: center;
 }
 .service__btn2 {
-    /* position: absolute; */
-    padding: 16px;
-    bottom: 50px;
-    right: 110px;
+    padding: 15px 15px;
+    text-align: center;
+    width: 155px;
+    margin-top: 25px;
+    align-self: center;
 }
-  .service__btn {
-    position: absolute;
-    padding: 16px;
-    bottom: 50px;
-    left: 110px;
+.service__btn3  {
+    padding: 15px 15px;
+    text-align: center;
+    width: 155px;
+    margin-top: 30px;
+    align-self: center;
 }
 /* секция join */
 .join__container {
