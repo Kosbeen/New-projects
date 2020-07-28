@@ -1,3 +1,7 @@
+
+* {
+    box-sizing: border-box
+}
 a {
     text-decoration: none;
 }
@@ -266,4 +270,19 @@ li {
     padding: 16px;
     bottom: 50px;
     left: 110px;
+}
+/* секция join */
+.join__container {
+    background-image: url(./img/join/background.png);
+    background-repeat: no-repeat;
+}
+.join__img {
+    margin-top: 95px;
+    margin-left: 50%;
+}
+.join__main__text {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    text-transform: uppercase;
 }
