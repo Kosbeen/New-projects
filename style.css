@@ -41,9 +41,6 @@ li {
     text-transform: uppercase;
     font-weight: bold;
 }
-.search {
-    
-}
 .nav__home {
     color:#ec4848;
 }
@@ -82,11 +79,14 @@ li {
     margin-top: 80px;
     padding: 15px;
     max-height: 60px;
+}
+.btn {
+    font-size: 16px;
     color: #ffffff;
     border: 1px solid #ec4848;
     background-color: #ec4848;
 }
-.info__title {
+.title {
     margin-top: 80px;
     text-align: center;
     font-size: 40px;
@@ -191,4 +191,79 @@ li {
     background-image: url(./img/info/sixthpercent.png);
     background-repeat: no-repeat;
     background-position: left; 
+}
+.service__container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.cards {
+    position: relative;
+    margin-left: 60px;
+    min-height: 460px;
+    font-size: 18px;
+    border: 1px solid;
+    border-radius: 12px;
+}
+
+.service__list__title1{
+    margin-top: 60px;
+    margin-left: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.service__list__title2 {
+    margin-top: 60px;
+    margin-left: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.service__list__title3 {
+    margin-top: 65px;
+    margin-left: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.service__card__text {
+    margin-top: 25px;
+    margin-left: 30px;
+    max-width: 80%;
+}
+.service__cards {
+    border: 2px solid #dbdbdb
+}
+.service__cards1  {
+    color: #ffffff;
+    background-color: #3f444a;
+}
+.service__img1 {
+    padding-top: 30px;
+    padding-left: 120px;
+}
+.service__img2 {
+    padding-top: 40px;
+    padding-left: 120px;
+}
+
+.service__img3 {
+    padding-top: 45px;
+    padding-left: 120px;
+}
+.service__btn3 {
+    position: absolute;
+    padding: 16px;
+    bottom: 50px;
+    right: 110px;
+}
+.service__btn2 {
+    position: absolute;
+    padding: 16px;
+    bottom: 50px;
+    right: 110px;
+}
+  .service__btn {
+    position: absolute;
+    padding: 16px;
+    bottom: 50px;
+    left: 110px;
 }
