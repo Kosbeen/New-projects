@@ -156,14 +156,14 @@ li {
 }
 .list__meter {
     padding-left: 15px;
-    padding-top: 10px;
+    padding-top: 5px;
     min-width: 525px;
     min-height: 25px;
     color: #ffffff;
     background-color: #f2f2f2;
 }
 .list__meter:not(:first-child) {
-    margin-top: 17px;
+    margin-top: 16px;
 }
 .info__list__meter1 {
     margin-top: 12px;
